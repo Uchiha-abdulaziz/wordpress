@@ -1,0 +1,52 @@
+.finish {
+  background-image: url(../image/second_bg.png); //--картинка заднего вида
+  background-repeat: no-repeat; //--чтобы не повторялось
+  background-size: cover; //--покрывать всю ширину
+  height: 800px; //--высота
+  padding-top: 86px; //--внутренний отступ с верху
+  margin-top: 100px; //--внешний отступ сверху
+  &__title {
+    font-family: "Roboto"; //--шрифт
+    font-style: normal; //--стиль шрифта
+    font-weight: 400;
+    font-size: 30px; //--размер шрифта
+    line-height: 30px;
+    text-align: center; //--центрировать текст
+    text-transform: uppercase; //--все за главной буквы
+
+    color: #efefef; //--свет шрифта
+  }
+  &__list {
+    display: flex; //--выравнивать контент по горизонтали
+    margin-top: 95px;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+  }
+  &__icon {
+    background-color: #b4e2ff;
+    border-radius: 50%;
+    width: 115px;
+    height: 115px;
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: 26px;
+  }
+  &__img {
+    position: absolute;
+    top: 65%;
+    left: 65%;
+    transform: translate(-50px, -50px);
+  }
+  &__text {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 20px;
+    width: 220px;
+    text-align: center;
+
+    color: #efefef;
+  }
+}

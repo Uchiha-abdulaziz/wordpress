@@ -1,0 +1,39 @@
+.doctor {
+  display: flex;
+  justify-content: space-between;
+}
+.img {
+  width: 868px;
+  height: 502px;
+  left: 0px;
+  top: 0px;
+  position: relative;
+}
+.doctor_text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 27px;
+  margin-left: 629px;
+  /* position: absolute; */
+  color: #4a4a4a;
+}
+.doctor__title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 30px;
+
+  align-items: center;
+  text-transform: uppercase;
+
+  color: #299cbd;
+}
+.doctor__add {
+  align-items: center;
+  text-align: center;
+  position: absolute;
+  margin: -200px;
+}

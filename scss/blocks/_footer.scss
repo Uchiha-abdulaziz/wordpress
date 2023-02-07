@@ -1,0 +1,14 @@
+.footer {
+  padding: 50px;
+  background: #1a1a1a;
+  &__text {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #888888;
+  }
+}

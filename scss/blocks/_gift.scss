@@ -1,0 +1,21 @@
+.gift {
+  background: #efefef;
+  padding: 50px 0px;
+  &__img {
+    display: block;
+    margin: 0 auto;
+    height: 174px;
+    width: 154px;
+    margin-bottom: 45px;
+  }
+  &__text {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 43px;
+    text-align: center;
+    margin-bottom: 51px;
+    color: #252525;
+  }
+}
